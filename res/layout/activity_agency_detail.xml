@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" android:paddingTop="20dip"
+        android:paddingLeft="20dip">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+        
+
+        <ImageView android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/sodifrance" 
+            android:paddingRight="20dip"/>
+
+          <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+        
+        <TextView
+            android:id="@+id/detail_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <TextView
+            android:id="@+id/detail_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+         
+    </LinearLayout>
+    
+         
+              
+        </LinearLayout>
+        
+    
+    <!-- Adresse -->
+        
+        <LinearLayout android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dip">
+             <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="Adresse : " />
+              <TextView
+        android:id="@+id/detail_address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="4, rue du chateau de l'Eraudiere 44300 Nantes" />
+            
+        </LinearLayout>
+        
+        
+        <!-- téléhone -->
+        <LinearLayout android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dip">
+               <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="Téléphone : " />
+               <TextView
+        android:id="@+id/detail_phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="02 40 18 54 10" />
+            </LinearLayout>
+        
+        
+       
+        
+    
+        <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+         android:gravity="center_horizontal"
+         android:paddingTop="100dip" >
+        <ImageButton
+            android:id="@+id/detail_call_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_menu_call" />
+
+        <ImageButton
+            android:id="@+id/detail_map_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_menu_mapmode" />
+
+        </LinearLayout>
+</LinearLayout>

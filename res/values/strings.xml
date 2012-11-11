@@ -1,0 +1,9 @@
+<resources>
+
+    <string name="app_name">Sodifrance</string>
+    <string name="welcome">Localisez les agences depuis votre mobile !</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">Sodifrance</string>
+     <string name="title_agencies_main">Agences</string>
+
+</resources>
