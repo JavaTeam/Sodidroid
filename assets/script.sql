@@ -29,7 +29,7 @@ insert into agency values(6, "Noisy-le-Grand", "SODIFRANCE", "1er étage<br>410 
 insert into agency values(7, "Lyon", "SODIFRANCE", "1er étage<br>Le Gemellyon Nord<br>57, Boulevard Vivier-Merle<br>69003 Lyon", 4.8585966, 45.7579153,"0426556430");
 insert into agency values(8, "Brest", "SODIFRANCE", "Prat pit<br>360, rue Robert Schumann<br>29460 Guipavas", -4.4911986, 48.3979895, "0298304320");
 insert into agency values(9, "Aix-en-Provence", "SODIFRANCE", "20, Parc du Golf<br>Rue Guillibert de la Lauzière<br>13856 Aix-en-Provence", 5.3650919, 43.4821946, "0442607280");
-insert into agency values(10, "Niort", "SODIFRANCE", "Centre d'affaires des Portes du Marais<br>Rue de l'Angélique<br>Z.A. de L'Ébaupin<br>79000 Bessines", -0.5143940, 46.3019530,"0549269400");
+insert into agency values(10, "Niort", "SODIFRANCE", "Centre d’affaires des Portes du Marais<br>Rue de l'Angélique<br>Z.A. de L'Ébaupin<br>79000 Bessines", -0.5143940, 46.3019530,"0549269400");
 insert into agency values(11, "Orléans", "SODIFRANCE", "Madeleine - Rive de Loire<br>4, place Jean Monnet<br>45000 Orléans", 1.8785309, 47.8990278, "0238421440");
 insert into agency values(12, "Toulouse", "SODIFRANCE", "15, Chemin de la Crabe<br>31300 Toulouse", 1.3772280, 43.6116190, "0561158888");
 insert into agency values(13, "Tours", "SODIFRANCE", "Centre d’Affaires<br>8 rue Honoré de Balzac<br>37000 Tours", 6.4521495, 45.6304108, "0247606565");
